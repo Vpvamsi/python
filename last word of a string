@@ -1,0 +1,13 @@
+def length(str):
+  # Split by space and converting
+    # String to list and
+    lis = list(str.split(" "))
+    return len(lis[-1])
+ 
+ 
+# Driver code
+str =  "123"
+print("The length of last word is",
+      length(str))
+OUT PUT>>>>>>>
+('The length of last word is', 3)
